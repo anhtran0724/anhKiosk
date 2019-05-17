@@ -1,0 +1,22 @@
+{
+  "name": "be_kiosk",
+  "version": "1.0.0",
+  "description": "- go get -u github.com/valyala/fasthttp - go get -u github.com/valyala/fastjson - go get -u github.com/jinzhu/gorm - go get -u github.com/gorilla/mux - go get -u github.com/go-sql-driver/mysql - go get -u github.com/joho/godotenv",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.veep.tech:veep/kiosk-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+  }
+}
