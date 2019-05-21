@@ -27,7 +27,7 @@ func GetConfig() *Config {
 
 	return &Config{
 		DB: &DBConfig{
-			Dialect:  system.GetEnv("DB_DIALECT", "msql"),
+			Dialect:  system.GetEnv("DB_DIALECT", "mysql"),
 			Host:     system.GetEnv("DB_HOST", "127.0.0.1"),
 			Port:     dbPort,
 			Name:     system.GetEnv("DB_NAME", "be_kiosk"),
